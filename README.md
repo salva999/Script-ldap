@@ -13,3 +13,14 @@ Instalamos pip3 y el paquete necesario que nos permite importar el módulo ldap 
 
 `pip3 install pyldap`
 
+Los Script y los ficheros csv deben estar en el mismo directorio.
+
+Para ejecutar los Script:
+
+Para añadir los usuarios y los equipos:
+
+`python3 poblar.py`
+
+Para eliminar los usuarios y los equipos:
+
+`python3 delete.py`
