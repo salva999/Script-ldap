@@ -28,11 +28,13 @@ Para eliminar los usuarios y los equipos:
 Para la autentificación de los usuarios de ldap configuramos el fichero /etc/ssh/sshd_config:
 
 `AuthorizedKeysCommand Ruta del Script.sh`
+
 `AuthorizedKeysCommandUser nobody`
 
 Permisos para el Script:
 
 `chown root. script.sh`
+
 `chmod 755 script.sh`
 
 Reiniciamos servicio:
